@@ -12,7 +12,7 @@ https://www.w3schools.com/python/.
 
 You'll find everything you need
 
-#Any questions?
+# Any questions?
 At the very top of the website, you have a button: "Issues" : https://github.com/ImYoshiBoy/ECAM/issues/new
 
 If you have any questions, please write them down here, Ill answer with complete explainations on my free time.
