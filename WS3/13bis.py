@@ -3,8 +3,8 @@
 
 from functions import askList
 
-newList1= askList()
-newList2 = askList()
+newList1=askList()
+newList2=askList()
 
 #Now we want to check if lists have a common element (by creating a flag)
 

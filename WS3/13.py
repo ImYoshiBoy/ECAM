@@ -1,22 +1,8 @@
 #Same as 13, this time we use a variable i, to which we add 1.
+from functions import *
 
-size1=input("Give a size:\n")
-newList1=[]
-
-for i in range(int(size1)):
-    element=input("Give an element to push into the list:\n")
-    newList1.append(element)
-
-print(f"Here is the first list! {newList1}")
-
-size2=input("Give a size:\n")
-newList2=[]
-
-for i in range(int(size2)):
-    element=input("Give an element to push into the list:\n")
-    newList2.append(element)
-
-print(f"Here is the first list! {newList2}")
+newList1=askList()
+newList2=askList()
 
 #Now we want to check if lists have a common element (by creating a flag)
 
