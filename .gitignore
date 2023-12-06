@@ -1,4 +1,4 @@
 *.pyc
-vowel_counter.py
-test.py
-maths1.py
+*vowel_counter.py
+*test.py
+*maths1.py
