@@ -1,7 +1,7 @@
 *.pyc
-# lab/vowel_counter.py
-# lab/test.py
-# lab/maths1.py
-# lab/hello.py
-# lab/palindrome.py
-# lab/palindrome2.py
+lab/vowel_counter.py
+lab/test.py
+lab/maths1.py
+lab/hello.py
+lab/palindrome.py
+lab/palindrome2.py
