@@ -1,10 +1,7 @@
 from hello import *
 from maths1 import *
-
 from vowel_counter import *
 
-greet("Yoshi")
+greet("Alexandra")
 
-print(absolute_value(0))
-
-print(is_vowel(""))
+print(is_vowel("ab"))
