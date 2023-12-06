@@ -1,6 +1,7 @@
 #Gonna create a bunch of functions here. The goal is to call them in differents files, to make the work easier
 
-def askList():
+def askList() -> list:
+    """This function will return a list, that the user will input."""
     size=input("Give a size:\n")
     newList=[]
 
@@ -9,7 +10,6 @@ def askList():
         newList.append(element)
 
     return newList
-
 
 #Here i am using a dictionnary.
 # Dictionaries are used to store data values in key:value pairs.

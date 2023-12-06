@@ -16,6 +16,7 @@ while i < len(newList1) and not flag:
     while j<len(newList2) and not flag:
         if newList1[i] == newList2[j]:
             flag=True
-            print(f"COMONON ELEMENTS : {newList1[i]}")
+            print(f"COMONON ELEMENTS")
+            print(not flag)
         j += 1
     i += 1
