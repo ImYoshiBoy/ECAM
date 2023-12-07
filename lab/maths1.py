@@ -6,12 +6,13 @@ def absolute_value(number: float or int) -> float or int:
     elif number<0:
         return -number
 
-def max_power_of_two(number: int) -> int:
+
+def max_power_of_two(number: int) -> int or str:
     """This function will return the highest power of two that divides a given number."""
 
     if number<=0:
         #raise ValueError("Input must be a positive integer.") 
-        #Just stoping the code, that is not what I want
+        #Just stoping the code, that is not what I want.
         return "Input must be a positive integer."
     else:
         result = 0
