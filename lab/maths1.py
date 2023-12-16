@@ -11,7 +11,7 @@ def max_power_of_two(number: int) -> int:
 
     if number<=0:
         #raise ValueError("Input must be a positive integer.") 
-        #Just stoping the code, that is not what I want
+        #Just stoping the code, that is not what I want.
         return "Input must be a positive integer."
     else:
         result = 0

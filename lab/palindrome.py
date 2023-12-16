@@ -17,7 +17,7 @@ def symmetrical(super_string:str) -> str or bool:
     #return super_string[::1]
     result=""
     for char in super_string:
-        result = char + result #and PLEASE not result + char. Wasted 10 mins on this.
+        result = char + result #and not result + char. Wasted 10 mins on this.
     return result
 
 def is_palindrome(omega_string:str) ->  str or bool:
