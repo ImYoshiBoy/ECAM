@@ -23,3 +23,11 @@ def bubblesort(any_list:list)->list:
     return any_list
 
 #THIS IS NOW THE WORKSHEET
+def selection_sort(int_list:list)->list:
+
+    for i in range(len(int_list)):
+        mini = minimum(int_list[i:])
+        int_list.remove(mini)
+        int_list.insert(i, mini)
+
+    return int_list
