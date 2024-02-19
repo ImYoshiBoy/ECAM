@@ -13,4 +13,13 @@ def rough_sort(int_list:list) -> list:
         int_list.remove(mini)
     return sorted_list
 
-print(rough_sort([1, 4, 2, 5, 6]))
+def bubblesort(any_list:list)->list:
+    n = len(any_list)
+    for j in range(n - 1):
+        for i in range(n - 1 - j):
+            if any_list[i] > any_list[i + 1]:
+                any_list[i],any_list[i + 1] = any_list[i + 1],any_list[i]
+            print(any_list)
+    return any_list
+
+#THIS IS NOW THE WORKSHEET
