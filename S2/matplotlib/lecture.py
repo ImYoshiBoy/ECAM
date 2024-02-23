@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
 
-x = [1, 2, 3]
-y = [1, 4, 9]
+import numpy as np
 
-plt.plot(x, y)
-plt.show()
+# x = [1, 2, 3]
+# y = [1, 4, 9]
+
+# plt.plot(x, y, ls="dashdot")
+# plt.show()
