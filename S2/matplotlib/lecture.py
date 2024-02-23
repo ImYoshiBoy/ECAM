@@ -2,8 +2,17 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
-# x = [1, 2, 3]
-# y = [1, 4, 9]
+x = [0, 1, 2, 3, 4, 5, 6]
+y = []
 
-# plt.plot(x, y, ls="dashdot")
-# plt.show()
+
+for i in x:
+    y.append(i**2)
+
+plt.plot(x, y, ls="--", color="red", marker="x", mec="b")
+plt.grid()
+plt.axis([-1, 7, -5, 40])
+plt.xlabel("n")
+plt.ylabel("n²")
+plt.title("Squarte of the first integers")
+plt.show()
