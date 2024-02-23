@@ -27,10 +27,14 @@ def taylor_exp(x, x0, order):
         expansion += (x - x0)**n / np.math.factorial(n)
     return expansion
 
-x1=np.linspace(-2, 3, 200)
-y1=taylor_exp(x1, 0, 3)
-plt.plot(x1, y1)
 
+for i in range(1, 4):
+    x1=np.linspace(-2, 3, 200)
+    y1=taylor_exp(x1, 0, i)
+    plt.plot(x1, y1, label=f'Taylor expansion of order {i}', ls="--")
+
+plt.xlabel("x")
+plt.ylabel("y")
 plt.show()
 
 
