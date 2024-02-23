@@ -31,6 +31,8 @@ for i in range(1, 5):
     y1=taylor_exp(x1, 0, i+1)
     plt.plot(x1, y1, label=f'Taylor expansion of order {i}', ls="--")
 
+
+
 plt.legend()
 plt.xlabel("x")
 plt.ylabel("y")
