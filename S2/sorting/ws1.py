@@ -50,3 +50,47 @@ def selection_sort_max(int_list:list)->list:
         int_list.insert(n-i-1, maxi)
 
     return int_list
+
+
+
+#Ex3:Insertion Sort
+
+def insertion_sort(any_list:list)->list:
+
+    for i in range(1, len(any_list)):
+        key=any_list[i]
+
+        j=i-1
+        while j >= 0 and key < any_list[j] :
+            any_list[j + 1] = any_list[j]
+            j -= 1
+        any_list[j + 1] = key
+
+    return any_list
+
+#Ex4:Counting Sort
+
+
+# Counting sort in Python programming
+
+
+def countingSort(any_list):
+    size = len(any_list)
+    output = [0] * size
+
+    count = [0] * 10
+
+    for i in range(0, size):
+        count[any_list[i]] += 1
+
+    for i in range(1, 10):
+        count[i] += count[i - 1]
+
+    i = size - 1
+    while i >= 0:
+        output[count[any_list[i]] - 1] = any_list[i]
+        count[any_list[i]] -= 1
+        i -= 1
+
+    for i in range(0, size):
+        any_list[i] = output[i]
