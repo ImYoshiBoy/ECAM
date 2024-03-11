@@ -10,11 +10,12 @@ for x in range(300):
     for y in range(300):
         # gray_value = int(255 * (1 - y / 300))
         # img.putpixel((x, y), (gray_value, gray_value, gray_value))
+        img.putpixel((x, y), (255, 255, 255))
+        if (y>=122 and y<=178) and (x>122 and x<178):
+            img.putpixel((x, y), (0, 0, 255))
+
         if ((x>=125 and x<=175) and (y>=125 and y<=175)):
             img.putpixel((x, y), (255))
-
-        if (y<=3 or y>=297) or (x<=3 or x>=297):
-            img.putpixel((x, y), (0, 0, 255))
 
 img.show()
 # We prefer images woth format .png which are less heavy than .jpg for what we are doing
